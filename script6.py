@@ -152,6 +152,23 @@ vehicle = {
     "type":"sedane"
 }
 
-for x in vehicle:
-    print(x)
+for key in vehicle:
+    print(key,vehicle[key])
 
+
+#           0        1      2        3
+names = ["chinmay","ram","sarika","satish"]
+print(names[0])
+
+#
+names[0] = 'tanmay'
+print(names)
+# allows duplicate value
+#          0        1       2        3        4
+fruits = ["apple","mango","banana","orange","mango"]
+print(fruits)
+print("Apple" in fruits)
+print(len(fruits))
+
+numbers = [11,22,33,44]
+print(len(numbers))
