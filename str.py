@@ -87,7 +87,7 @@ fn = "chinmay"
 ln = "deshpande"
 
 print("My firstName is "+fn+" and my lastName is "+ln)
-print(f"My firstName is {fn} and my lastName is "+ln)
+print(f"My firstName is {fn} and my lastName is {ln}")
 
 
 
