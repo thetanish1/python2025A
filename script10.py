@@ -74,18 +74,65 @@ print('ABC'.isupper())
 print(" ".isspace())
 print("I Am Learning Js".istitle())
 
+# seach methods 
+#0123456
+#"hello world"
+s = "hello world"
+e = s.find("world")
+print(e)
+
+s = "hello world hello"
+j = s.rfind("hello")
+print(j)
+
+city = "pune"
+
+# 0  1  2  3
+# p  u  n  e
+print("hello")
+d = city.index("p")
+print(d)
+print("bye")
 
 
+s = "hello world hello"
+y = s.rindex("hello")
+print(y)
 
 
+j = "hello hello hello"
+h = j.count("l")
+print(h)
 
 
+info = "i am learning js"
+e = info.replace("js","python")
+print(e)
+
+# splitting and join methods
+
+s = "apple,banana,grape"
+e = s.split(',')
+print(e)
 
 
+info = ["chinmay","deshpande","7709192441"]
+r = "-".join(info) # chinmay@deshpande@7709192441
+print(r)
 
 
+h = "chinmay"
+e = h.startswith('ch')
+print(e)
 
+f = h.startswith('c')
+print(f)
 
+b = "deshpande"
+f2 = b.endswith('d')
+f3 = b.endswith('de')
+print(f2)
+print(f3)
 
 
 
