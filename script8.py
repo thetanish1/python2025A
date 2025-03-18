@@ -100,3 +100,5 @@ print(cities[4:1])
 print(cities[-4:4])
 print(cities[4:-4])
 
+#tuple
+

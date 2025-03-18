@@ -38,8 +38,6 @@ g = strThree.isalnum()
 print(g)
 
 
-
-
 country = "India"
 n = country.startswith('i')
 e = country.startswith('india')

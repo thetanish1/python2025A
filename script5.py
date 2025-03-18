@@ -72,7 +72,6 @@ print(info)
 
 #program4
 # does dictionalry allows to store duplicate value 
-
 vehicle = {
     "color":"red",
     "type":"suv",

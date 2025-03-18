@@ -76,7 +76,6 @@ for x in range(10,1,-1):
     print(x)
 
 # continue with for loop
-
 for x in range(1,6): # 2 # 3 # 4 # 5
     if x == 3:
         continue

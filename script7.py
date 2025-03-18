@@ -37,12 +37,11 @@ info = [
 
 
 # program 5
+# total  = 0
+# for person in info:
+#     total = total + person['age']
 
-total  = 0
-for person in info:
-    total = total + person['age']
-
-print(total/len(info))
+# print(total/len(info))
 
 #program 4
 # firstname of person with city pune
