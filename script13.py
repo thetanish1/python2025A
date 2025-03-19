@@ -18,7 +18,6 @@ numbers = [11,22,33,44,55]
 e2 = [x + 1 for x in numbers]
 print(e2)
 
-
 # program 3
 marks = [45,43,33,40,38,39,54]
 above40 = []
