@@ -66,16 +66,70 @@ e7 = addElementToSet(setA)
 print(e7)
 
 # default parameter 
+def add(x=1,y=1):
+    print(x+y)
+add(12,3)
+add()
 
-# optional parameter 
+# postional parameter 
+def sub(x,y):
+    print(x-y)
+sub(500,50) # -450
+sub(y=400,x= 300)
 
 # args 
+def addall(*args):
+    print(args)
+    print(sum(args))
+    total = 0
+    for x in args:
+        total = total + x
+    print(total)
+addall(1,2,3,3,4,5,6,7,8,3,5,6,7,8,4,5)
 
 # **kwargs
+def showInfo(**kwargs):
+    print(kwargs)
+showInfo(name="chinmay",lastName="deshpande",age=23)
 
 # lambda function
 
-# function as parameter and function as written 
+def add(a,b):
+    print(a+b)
+add(12,2)
+
+add = lambda x,y:x+y
+add(12,3)
+
+x = 10
+print(x)
+q  = lambda x:x*x
+print(q)
+q(2)
+
+# function as parameter 
+add = lambda x,y:x+y
+def addition(fn,x,y):
+   #fn = lambda x,y:x+y
+   # x = 10
+   # y = 7
+   sum =  fn(x,y)
+   return sum
+
+s = addition(add,10,7)
+print(s)
+
+
+# function as return type
+def subtraction():
+    return lambda x:x-x
+sub = subtraction()
+print(sub)
+e = sub(1)
+print(e)
+
+
+
 
 # map()
 
