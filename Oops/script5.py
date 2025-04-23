@@ -111,7 +111,7 @@ class Father:
         self.fname = fn 
         self.lname = ln
 
-    def displayFName(self):
+    def displayName(self):
         print(self.fname + self.lname)
 
 class Mother:
@@ -120,7 +120,7 @@ class Mother:
         self.mname = fn 
         self.lname = ln
 
-    def displayMName(self):
+    def displayName(self):
         print(self.mname + self.lname)
 
 class Son(Mother,Father):
@@ -133,8 +133,7 @@ class Son(Mother,Father):
 
 
 chinmay = Son("kanchan","deshpande","chinmay")
-
-
+chinmay.displayName()
 
 
 
