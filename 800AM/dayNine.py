@@ -68,10 +68,10 @@
 # print(len(city) - 1)
 
 
-# #program 7
-# firstName = "chinmay"
-# for char in firstName:
-#     print(char)
+#program 7
+firstName = "chinmay"
+for char in firstName:
+    print(char)
 
 # #program 8
 # # 0   1   2   3  4
@@ -94,17 +94,3 @@
 # city = "Pune"
 # e = city.upper()
 # print(e)
-
-# e2 = city.lower()
-# print(e2)
-# python ----> advanced 
-# js     ----> complete
-# excel  ----> not completed
-# sql    ----> completed 
-# power BI ----> not completed
-# postman   ----> not completed
-# git       ----> not completed
-
-
-
-
