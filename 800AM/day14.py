@@ -103,11 +103,5 @@ print("hello")
 setJ.discard(444)
 print("bye")
 
-# list comprehension
-# functions (decorator and generatord)
-# Oops
-# exception 
-# file handling 
-# regular expression
 
 
