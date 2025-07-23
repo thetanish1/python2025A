@@ -94,7 +94,6 @@ for item in info.items():
     print(k,v)
 
 # program 7
-
 numbers = (11,22,33,44,55,11)
 e = numbers.count(11)
 print(e)

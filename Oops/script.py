@@ -62,6 +62,5 @@ print(sarika.firstName)
 print(sarika.lastName)
 print(sarika.country)
 sarika.country ="Bharat"
-
 print(amol.country)
 print(sarika.country)

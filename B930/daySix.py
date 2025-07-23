@@ -59,7 +59,6 @@ for x in range(len(names2)):
 for name in names2:
     print(name)
 
-
 # while loop
 i2 = 0
 while(i2 < len(names2)):

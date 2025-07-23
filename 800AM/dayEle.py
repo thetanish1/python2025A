@@ -67,5 +67,6 @@ print(len(e3))
 
 s = "chinmaya"
 print(s.count('a'))
-
 print(s.index("a"))
+
+s.capitalize()

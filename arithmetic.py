@@ -1,4 +1,4 @@
-# module file
+# module file # functions # class # const
 def add(x,y):
     print(x+y)
 

@@ -75,4 +75,9 @@ print(info)
 total = 0
 for x in info:
     total = total + x['age']
-    #        0    +    35
+    #        0    +    35 ----> 35
+    #        35   +    34 ----> 69
+    #        69   +    26 --->  95
+    #        95   +    25 --->  120
+
+total/len(info)   

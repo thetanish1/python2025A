@@ -64,9 +64,14 @@ for x in range(50,4,-5):
 
 #program 8
 #break statement in for 
-
 for x in range(1,6): #2 #3
     if x == 3:
         break
     print(x) #1 #2
+
+for x in range(1,6): #2 #3
+    print(x)  #1 #2 #3
+    if x == 3:
+        break
+
 

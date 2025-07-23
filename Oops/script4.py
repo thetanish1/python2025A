@@ -39,8 +39,8 @@
 
     
 # Program 2
+# single inheritance
 # parent contructor and child also having constructor
-
 class Student:
     def __init__(self,fn,ln):
         self.firstName = fn 

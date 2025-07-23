@@ -78,3 +78,87 @@ print(setF2)
 
 # setF = setD.difference(setE)
 # print(setF)
+
+
+# program 1 
+
+
+# setA = {11,22,33,44}
+# setB = {44,55,66,77,33}
+# setB = setA.intersection(setB)
+# print(setB)
+# setB.intersection_update(setA)
+# print(setB)
+
+
+
+# program 2
+
+# setR = {11,22,33}
+# setQ = {33,44,55}
+# # setY = setR.difference(setQ) # {11,22}
+# # print(setY)
+# setR.difference_update(setQ)
+# print(setR)
+
+
+# program 3
+
+setR = {11,22,33}
+setQ = {33,44,55}
+# setE = setR.symmetric_difference(setQ)
+# print(setE)
+setR.symmetric_difference_update(setQ)
+print(setR)
+
+# program 4
+setR = {11,22,33}
+setQ = {33,44,55}
+setY = setR.union(setQ)
+print(setY)
+
+
+# program 5
+setR = {11,22,33}
+setQ = {33,44,55}
+e = setR.isdisjoint(setQ)
+print(e)
+
+# setI = {11,22}
+# setG = {11,22,33,44}
+# setG.issuperset(setI)
+# setI.issuperset(setG)
+# setI.issubset(setG)
+
+
+setH = {11,33,44}
+setH.add(55)
+print(setH)
+
+setH.remove(44)
+print(setH)
+
+setH.discard(55)
+setY = {11,22,33}
+print("hello")
+setY.discard(66)
+print("bye")
+
+
+setY.clear()
+print(setY)
+
+setY = {11,22,33}
+setU = setY.copy()
+setU.remove(33)
+print(setU)
+print(setY)
+
+
+
+
+
+
+
+
+

@@ -82,3 +82,5 @@ print(len(e4))
 e3 = " goa"
 e4 = e3.lstrip()
 print(len(e4))
+
+# 18 minuntes  ---> 365 days ----> 90 % 

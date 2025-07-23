@@ -71,5 +71,5 @@ for x in sum:
 print(total)
 
 from functools import reduce
-e = reduce(lambda x,y:x+y,sum,5) # 66
+e = reduce(lambda total,y:total+y,sum,0) # 66
 print(e)

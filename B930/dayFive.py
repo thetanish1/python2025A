@@ -113,3 +113,11 @@ while(i7 <= 5):
         break
     print(i7) # 1 # 2
     i7 = i7 + 1 #2 #3
+
+
+i7 = 1
+while(i7 <= 5):
+    print(i7) 
+    if i7 == 3:
+        break
+    i7 = i7 + 1 

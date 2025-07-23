@@ -73,10 +73,7 @@ for x in students:
 for x in students:
     if x['firstName'].startswith("a"):
         print(x['firstName'])
-
-
 total = 0
-
 for x in students:
     total = total + x['age']
 print(total/len(students))

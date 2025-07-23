@@ -105,3 +105,9 @@ print(f)
 
 r = d.index(123)
 print(r)
+
+
+# 8 am    ----> 
+# 9 pm    ----> 
+# 7:30 am
+# sql     ---> 12 pm  ist

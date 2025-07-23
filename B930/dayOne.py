@@ -99,7 +99,6 @@ print(e + e)
 # Properties - bankAccNumber , Name , Bal, IFSC code 
 # Methods - withdrawl() , deposit()
 
-
 x = 10
 print(x)
 print(type(x))
@@ -113,3 +112,9 @@ print(type(y))
 z = True 
 print(z)
 print(type(z))
+# True or False
+
+c = "chinmay"
+print(c)
+print(type(c))
+# '1',"A","a","A23r"," ","@$#$@#$"

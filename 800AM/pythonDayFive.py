@@ -61,10 +61,20 @@ while(i8 <= 5):
         break
     i8 = i8 + 1  #2 #3
 
-
 i8 = 1
 while(i8 <= 5):  
     if i8 == 3:
         break
     print(i8) #1 #2
     i8 = i8 + 1  #2 #3
+
+# program 4
+# continue statement with while loop
+i9 = 1
+while(i9 <= 5):
+    if i9 == 3:
+        i9 = i9 + 1 #4
+        continue
+    print(i9)  #1 #2 #4 #5
+    i9 = i9 + 1  #2 #3 #5 #6
+

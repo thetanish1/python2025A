@@ -38,6 +38,3 @@
 
 # amol = Person("amol","rao")
 # amol.displayName()
-
-# 8.00 am
-# 8:15 am

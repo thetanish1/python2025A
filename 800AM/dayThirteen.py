@@ -108,14 +108,10 @@ print(setR2.difference(setR1))
 
 setR2.difference_update(setR1)
 print(setR2)
-
-
 setN2 = {22,33,44}
 setM2  = {22,33,55}
 
 # print(setN2.symmetric_difference(setM2))
 # print(setM2.symmetric_difference(setN2))
-
-
 setN2.symmetric_difference_update(setM2)
 print(setN2)

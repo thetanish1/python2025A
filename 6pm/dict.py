@@ -114,7 +114,6 @@ for x in vehicle:
     print(x)
     print(vehicle[x])
 
-
 for key in vehicle.keys():
     print(key)
 

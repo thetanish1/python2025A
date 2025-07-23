@@ -57,5 +57,5 @@ for x in numbers:
 print(total)
 
 from functools  import reduce
-total2 = reduce(lambda x,y:x+y,numbers,5)
+total2 = reduce(lambda x,y:x+y,numbers)
 print(total2)

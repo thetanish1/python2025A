@@ -103,12 +103,11 @@ gauri = Bank("gauri",12300000000)
 sarika = Bank("sarika",12300000000)  
 vedant = Bank("vedant",123000000000000000)  
 
-
 amol.withdrawl(110)   
 amol.withdrawl(11)  
 amol.withdrawl(10)  
 amol.deposit(10)
-amol.deposit(1000)
+amol.deposit(1000)  
 amol.deposit(100000)  
 
 print(amol.last_five_transactions())

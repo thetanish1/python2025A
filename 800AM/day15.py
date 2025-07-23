@@ -70,3 +70,8 @@ for x in e:
 w =[1,2,3,4,5]
 e = [x * x for x in w]
 print(e)
+
+# 12 pm ist -- dipanshu
+# 7:30 am js , 8:00 am python 
+# 8:30 pm js , 9:30 pm python
+# 8:30 am ist  excel
