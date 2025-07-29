@@ -86,3 +86,56 @@ class Bank:
 
 
 # class objects 
+
+
+
+class Bank:
+    country = "India"
+    count = 0
+
+    def __init__(self,fullName,bal):
+        self.fullName = fullName
+        self.balance = bal
+        self.transactions = []
+        Bank.count = Bank.count + 1
+
+
+    def deposit(self,amt):
+        self.balance = self.balance + amt
+        self.transactions.append(amt)
+        return self.balance
+    
+    def withdrawl(self,amt):
+        if amt < self.balance:
+            self.balance = self.balance - amt
+            self.transactions.append(-amt)
+            return self.balance
+        else:
+            print("insufficient balance")
+
+    def last5transaction(self):
+        return self.transactions[-5:]
+
+    @classmethod
+    def updateCountry(cls,updateCountry):
+        Bank.country = updateCountry
+
+    @staticmethod
+    def totalAcc():
+        print(Bank.count)
+
+chinmay = Bank("chinmay deshpande",100)
+sarika = Bank("sarika pansare",10)
+poorva = Bank("poorva vyas",5)
+
+Bank.totalAcc()
+poorva.deposit(10)
+poorva.deposit(10)
+poorva.deposit(10)
+poorva.deposit(10)
+poorva.deposit(10)
+poorva.deposit(10)
+poorva.withdrawl(10)
+print(poorva.last5transaction())
+
+
