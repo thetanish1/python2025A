@@ -1,30 +1,29 @@
 
-# class  Person:
-#     fn = None
-#     ln = None
+class  Person:
+    fn = None
+    ln = None
 
-#     def displayName(self):
-#         print(self.fn + self.ln)
+    def displayName(self):
+        print(self.fn + self.ln)
 
 
-# chinmay  = Person()
-# print(chinmay.fn)
-# print(chinmay.ln)
-# chinmay.fn  = "chinmay"
-# chinmay.ln = "deshpande"
-# chinmay.displayName()
+chinmay  = Person()
+print(chinmay.fn)
+print(chinmay.ln)
+chinmay.fn  = "chinmay"
+chinmay.ln = "deshpande"
+chinmay.displayName()
 
-# amol = Person()
-# print(amol.fn)
-# print(amol.ln)
-# #amol.displayName()
-# amol.fn = 'amol'
-# amol.ln = 'rao'
-# amol.displayName()
-# print(amol.fn)
-# print(amol.ln)
+amol = Person()
+print(amol.fn)
+print(amol.ln)
+#amol.displayName()
+amol.fn = 'amol'
+amol.ln = 'rao'
+amol.displayName()
+print(amol.fn)
+print(amol.ln)
 
-# Program 2
 # class Person:
 #     def __init__(self,fn,ln):
 #         self.firstName = fn

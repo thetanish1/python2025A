@@ -59,6 +59,9 @@ class Booky:
     
     def __gt__(self,other):
         return self.pages > other.pages
+    
+    def __lt__(self,other):
+        return self.pages < other.pages
 
 mahabharat = Bookx(250)
 ramayan = Booky(200)
@@ -67,5 +70,6 @@ ramayan = Booky(200)
 print(ramayan+mahabharat)
 print(ramayan > mahabharat)
 print(ramayan.pages > mahabharat.pages)
+print(ramayan.pages < mahabharat.pages)
 
 #print(mahabharat.pages + ramayan.pages)
