@@ -59,18 +59,118 @@
 
 # for x in range(10,0,-1):
 #     print(x)
-dict = [
-    {
-        "fn": "t",
-        "ln": "d"
-    },
-    {
-        "tanish":"dewase",
-        "dewase":"gygf"
-    }
-    ]
-for x in dict:
-    print(list(x)) #gives list 
+# dictt = [
+#     {
+#         "fn": "t",
+#         "ln": "d"
+#     },
+#     {
+#         "fn":"dewase",
+#         "dewase":"gygf"
+#     },
+#     {
+#         "fn":"sdf",
+#         "sdf":"rr"
+#     }
+#     ]
+# for x in dictt:
+#     print(list(x)) #gives list 
 
-for x in dict:
-    print(x["fn"])
+# for x in dictt:
+#     print(x['fn'])
+
+
+
+tanish=['sarika','disha','palak','mahi','vanshika']
+
+i=0
+while(i<len(tanish)):
+    print(i)
+    i+=1
+# for x in tanish:
+#     print(x[0])
+
+print(len(tanish))
+
+tanish[0]='rishika'
+print(tanish)
+
+print('rishika' in tanish)
+print('disha'in tanish)
+print('tanish' in tanish)
+
+print(len(tanish))
+
+
+numbers=[1,2,3,4,5,6,7]
+print(max(numbers))
+print(min(numbers))
+del numbers
+
+# ..........................................................................................
+
+names=['tanish','disha','palak','rishika','vanshika']
+names.append('mahi') #add in last
+print(names)
+
+names.pop() #last delete
+print(names)
+
+names.sort() #alpabetic order
+print(names)
+
+names.reverse() #last el in first el
+print(names)
+
+names.remove('tanish') #specific value delete
+print(names)
+
+r=names.count('disha') #count element in list
+print(r)
+
+
+names=['tanish','disha','palak','rishika','vanshika']
+name1=['shyam','krishna','mohan','kanha']
+names.extend(name1) #first mein second ki value jayengi
+print(names)
+print(name1)
+
+name1.sort()
+print(name1)
+
+
+vehicle={
+    #property:value
+    #key: value
+    "color":"red",
+    "type":"Mercedes",
+    "company":"mercedes",
+    "color":"red",
+}
+
+print(vehicle)
+print(len(vehicle))
+
+for x in vehicle:
+    print(x,vehicle[x])
+
+for x in vehicle.keys():
+    print(x)
+
+for x in vehicle.values():
+    print(x)
+
+for x in vehicle.items():
+    print(x)
+    print(type(x))
+
+
+
+
+
+
+
+
+
+
+
